@@ -1,0 +1,5 @@
+# cube root - 3 Apr 2020
+
+n = int(input())
+cube = n ** (1/3)
+print(cube)
