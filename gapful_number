@@ -1,0 +1,13 @@
+# Gapful number - 3 Apr 2020
+
+ip = input()
+
+n = int(ip)
+
+div = ip[0]+ip[2]
+div = int(div)
+if(n%div == 0):
+    print("true")
+else:
+    print("false")
+
