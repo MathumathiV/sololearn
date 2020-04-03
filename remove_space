@@ -1,0 +1,7 @@
+# remove spaces from a string - 3 apr 2020
+st = input()
+i=0;string=""
+for i in range(len(st)):
+    if st[i]!=' ':
+        string += st[i]
+print(string)
